@@ -2,11 +2,12 @@ package africa.semicolon.blogApplication.services;
 
 import africa.semicolon.blogApplication.data.models.Post;
 import africa.semicolon.blogApplication.dtos.requests.CreatePostRequest;
+import africa.semicolon.blogApplication.dtos.responses.CreatePostResponse;
 
 import java.util.List;
 
 public interface PostService {
-    String createPost(CreatePostRequest createPostRequest);
+    CreatePostResponse createPost(CreatePostRequest createPostRequest);
 
     List<Post> findAllPosts();
 
