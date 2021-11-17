@@ -1,4 +1,4 @@
-package africa.semicolon.blogApplication.dtos;
+package africa.semicolon.blogApplication.data.repository;
 
 import africa.semicolon.blogApplication.data.models.Post;
 import africa.semicolon.blogApplication.data.repository.PostRepository;
