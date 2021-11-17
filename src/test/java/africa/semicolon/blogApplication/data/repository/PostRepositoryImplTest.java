@@ -1,7 +1,6 @@
 package africa.semicolon.blogApplication.data.repository;
 
 import africa.semicolon.blogApplication.data.models.Post;
-import africa.semicolon.blogApplication.dtos.PostRepositoryImpl;
 import org.junit.jupiter.api.AfterEach;
 import org.junit.jupiter.api.BeforeEach;
 import org.junit.jupiter.api.Test;
