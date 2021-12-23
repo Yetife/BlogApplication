@@ -85,8 +85,6 @@ class PostRepositoryImplTest {
         LocalDateTime datePostWasCreated = LocalDateTime.now();
         post.setDateCreated(datePostWasCreated);
         postRepository.save(post);
-        postRepository.save(post);
-        postRepository.save(post);
-        assertEquals(3, postRepository.findAll().size());
+        assertEquals(1, postRepository.findAll().size());
     }
 }
